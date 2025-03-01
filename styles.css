@@ -1,2 +1,57 @@
 
 /* Your CSS Code here. */
+body {
+	padding :0;
+	margin :0;
+	background-color : #f7e1e1;;
+}
+
+nav {
+	display : flex;
+	justify-content : space-between;
+	align-items : center;
+	background-color:  #d32f2f;
+	color : white;
+	padding : 10px 20px;
+}
+.nav-title {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.nav-links span {
+	margin:0 15px;
+	cursor: pointer;
+}
+.nav-links span:hover {
+	text-decoration: underline;
+}
+.container {
+	display : flex;
+	justify-content :space-around;
+	background-color : #f1f1f1;
+	margin : 20px;
+	padding : 20px;
+	border-radius :8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+		flex : 1;
+   padding : 20px;
+		text-align : center;
+}
+
+	.image-container img{
+		width: 100%;
+	max-width: 350px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	}
+
+.description {
+	padding : 10px
+}
+
+footer {
+	
+}
